@@ -1,0 +1,113 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: content-box;
+}
+
+#textaligndiv {
+	text-align: center;
+	margin: 50px;
+}
+
+#div1 {
+	background-color: gray;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+#img1div {
+	margin: 30px;
+}
+
+#img1 {
+	width: 200px;
+}
+
+#div2 {
+	margin: 30px auto;
+	height: 100px;
+	width: 100px;
+	background-color: gray;
+}
+
+#marginleftauto {
+	width: 200px;
+	background-color: yellow;
+	font-size: 20px;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+
+#marginrightauto {
+	width: 200px;
+	background-color: yellow;
+	font-size: 20px;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+#div3 {
+	width: 100px;
+	height: 100px;
+	background-color: gray;
+	margin-top: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	margin-bottom: 50px;
+}
+
+#div4 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	margin-top: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#parentcontainer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+#div5 {
+	background-color: gray;
+	height: 100px;
+	width: 100px;
+}
+
+#container {
+	text-align: center;
+}
+
+.ofimg {
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+}
+
+#of1 {
+	object-fit: fill;
+}
+
+#of2 {
+	object-fit: contain;
+}
+
+#of3 {
+	object-fit: cover;
+}
+
+#of4 {
+	object-fit: none;
+}
+
+#of5 {
+	object-fit: scale-down;
+}
